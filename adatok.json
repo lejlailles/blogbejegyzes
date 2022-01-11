@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "name": "Lejla"
+    },
+    {
+      "user_id": 2,
+      "name": "Zoli"
+    },
+    {
+      "user_id": 3,
+      "name": "Ketrin"
+    },
+    {
+      "user_id": 4,
+      "name": "Kati"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Első blogbejegyzésem",
+      "description": "Ez pedig itt a bővebb információ helye, bármit lehet ide írni",
+      "date": "2022-01-09",
+      "userId": "1"
+    },
+    {
+      "id": 2,
+      "title": "Újabb bejegyzés",
+      "description": "Ez itt az újabb bejegyzés helye",
+      "date": "2022.01.07.",
+      "userId": 2,
+      "lajk": "3"
+    },
+    {
+      "id": 3,
+      "title": "Hogyan írjunk blogbejegyzést?",
+      "description": "Blogbejegyzés írásának bővebb kifejtése...",
+      "date": "2022.01.08.",
+      "userId": 3,
+      "lajk": "1"
+    },
+    {
+      "title": "Bejegyzés",
+      "description": "PRÓBA",
+      "date": "2022-01-08",
+      "userId": "ÉN",
+      "id": 4
+    }
+  ]
+}

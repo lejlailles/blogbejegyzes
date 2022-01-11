@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+body {
+  background-color: tan;
+}
+
+main {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+
+  justify-items: center;
+  background-color: #fffffc;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "aside article"
+    "aside footer";
+  grid-gap: 1rem;
+  justify-items: center;
+}
+
+h3 {
+  font-weight: bolder;
+  color: seagreen;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+h1 {
+  font-family: "Lucida Handwriting", cursive;
+  color: seagreen;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+h4 {
+  font-weight: bolder;
+  color: seagreen;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-column: main;
+}
+
+aside {
+  grid-row: aside;
+  margin: 10px;
+}
+
+footer {
+  grid-column: footer;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="search"] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 40px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: bolder;
+  color: seagreen;
+}
+
+#ujpost {
+  background-color: seagreen; 
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+
+#posztModosit{
+    background-color: seagreen; 
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+
+p {
+  padding: 10px;
+}
+
+
+
+.post {
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+
+.torles {
+  margin: 5px;
+  padding: 2px;
+  position: absolute;
+  right: 2px;
+  bottom:1px;
+  background-color: seagreen; 
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+
+  border: none;
+}
+
+.modositas {
+  margin: 5px;
+  padding: 2px;
+  position: absolute;
+  right: 50px;
+  bottom:1px;
+ 
+  background-color: seagreen; 
+
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+
+  border: none;
+}
+
+.date{
+    color:seagreen;
+    padding:10px;
+}
+
+.userId{
+    padding:10px;
+    color:tan;
+}
+
+i{
+    color:dimgrey;
+}
+
+
+
+

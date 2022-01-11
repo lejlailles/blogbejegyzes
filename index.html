@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+    <script src="js/Task.js" type="text/javascript"></script>
+    <script src="js/Ajax.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/stilus.css" rel="stylesheet" type="text/css" />
+    <title>Illés Lejla</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+      <header>
+        <h1>Blogbejegyzések</h1>
+      </header>
+      <aside>
+        <div>
+          <form id="ujadatok">
+              <h4>Új poszt írása:</h4>
+              <label for="taskId">ID: </label>
+              <input disabled  type="text" name="postID" id="postID" ><br>
+              <label for="cim">Cím:</label><br>
+              <input type="text" id="cim" name="cim"><br>
+              <label for="leiras">Leírás: </label><br>
+              <textarea name="leiras" id="leiras" placeholder="Új bejegyzés..."></textarea><br>
+              <label for="datum">Bejegyzés dátuma: </label><br>
+              <input type="date" id="datum" name="datum" /><br>
+              <label for="szerzo">Szerző:</label><br>
+              <input type="text" id="szerzo" name="szerzo"><br>
+              <input type="button" id="ujpost" value="Posztolás">
+              <input type="button" id="posztModosit" value="Poszt módosítása" />
+              <br><br>
+            </form>
+          </div>
+            <div class="kereso">
+              <label for="kereses">Kereső:  </label>
+              <input type="search" id="kereses" name="kereses">
+          </div>
+        </aside>
+    <article>
+      <div class="postok">
+        <div class="post">
+          <h3 class="title">1. blogbejegyzésem</h3>
+          <p class="description">Ez az első blogbejegyzés leírása.</p>
+          <span class="date">2022-01-05</span>
+          <span class="userId">Lejla</span>
+          <i class="fa fa-heart"></i>
+          <span class="lajk">12</span>
+          <input type="button" class="modositas" value="Módosítás" />
+          <input type="button" class="torles" value="Törlés" />
+        </div>
+      </div>
+
+    </article>
+    
+    <footer><p>Illés Lejla</p></footer>
+  </div>
+  </main>
+  </body>
+</html>
